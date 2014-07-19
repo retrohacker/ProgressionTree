@@ -1,0 +1,70 @@
+{
+  "courses" : [
+    {
+      "keyword" : "codecademy_javascript",
+      "title" : "Codecademy JavaScript",
+      "description" : "Learn the basics of JavaScript!",
+      "definition" : {
+        "module" : "codecademy.js",
+        "username" : "true",
+        "course" : "javascript"
+      }
+    },
+    {
+      "keyword" : "codecademy_web",
+      "title" : "Codecademy HTML & CSS",
+      "description" : "Learn the basics of web development!",
+      "definition" : {
+        "module" : "codecademy.js",
+        "username" : "true",
+        "course" : "web"
+      }
+    },
+    {
+      "keyword" : "learnyounode",
+      "title" : "Learn You The Node.js For Much Win!",
+      "description" : "Bust JavaScript out of the web browser! In this course, you will learn node.js!",
+      "definition" : {
+        "module" : "nodeschool.js",
+        "course" : "learnyounode"
+      },
+      "dependencies" : [
+        "codecademy_javascript"
+      ]
+    },
+    {
+      "keyword" : "gitit",
+      "title" : "Git-it",
+      "description" : "Learn Git and GitHub basics!",
+      "definition" : {
+        "module" : "nodeschool.js",
+        "course" : "git-it"
+      }
+    },
+    {
+      "keyword" : "async-you",
+      "title" : "Async You",
+      "description" : "Learn to use the async package for node.js!",
+      "definition" : {
+        "module" : "nodeschool.js",
+        "course" : "async-you"
+      },
+      "dependencies" : [
+        "learnyounode"
+      ]
+    },
+    {
+      "keyword" : "browserify-adventure",
+      "title" : "Browserify Adventure",
+      "description" : "Use npm modules and node-style require() in the browser!",
+      "definition" : {
+        "module" : "nodeschool.js",
+        "course" : "browserify-adventure"
+      },
+      "dependencies" : [
+        "codecademy_web",
+        "learnyounode"
+      ]
+    }
+  ]
+}
